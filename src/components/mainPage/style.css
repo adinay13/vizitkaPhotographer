@@ -1,0 +1,242 @@
+@import "//fonts.fontstorage.com/import/comfortaa.css";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Comfortaa', 'sans-serif';
+}
+.container {
+    width: 1150px;
+    height: 780px;
+}
+.header{
+    border-bottom: 5px solid #CFDAF0;
+}
+.header__inner {
+    height: 80px;
+    background-color: black;
+}
+.header__inner h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    color: #CFDAF0;
+}
+.bio__inner{
+    border: 1px solid blueviolet;
+    height: 700px;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+.text_block{
+    width: 480px;
+    height: 300px;
+    font-size: 20px;
+    word-spacing: 10px;
+    color: #aec2ec;
+    margin-top: 90px;
+    line-height: 30px;
+    margin-left: 40px;
+    text-indent: 20px
+}
+.btn_one{
+    border: 2px solid;
+    border-radius: 15px;
+    margin-top: 30px;
+    width: 300px;
+    height: 50px;
+    background: transparent;
+    color: #CFDAF0;
+    font-size: 20px;
+    margin-left: 150px;
+    box-shadow: 0 0 5px 5px #b0b0dc;
+
+}
+.moment{
+    margin-top: 30px;
+    color: #CFDAF0;
+    margin-left: 40px;
+    font-size: 24px;
+
+}
+.click{
+   display: flex;
+    justify-content: center;
+}
+.click img{
+    width: 100px;
+    height: 100px;
+}
+.picture img {
+    width: 500px;
+    height: 550px;
+
+}
+.portfolio__inner{
+    border-top: 5px solid #c0a1a1;
+    background-color: #dccfc4;
+    border-bottom: 5px solid #c0a1a1 ;
+    height: 920px;
+
+}
+.portfolio__inner h1 {
+    color: #706C6A;
+    width: 250px;
+    margin: 0 auto;
+    padding-top: 30px;
+
+}
+
+.photos{
+    color: #c0a1a1;
+}
+.photos h3 {
+    display: flex;
+    width: 150px;
+    margin: 0 auto;
+
+}
+.look {
+    border: 3px solid #c0a1a1;
+    border-radius: 8px;
+    width: 300px;
+    height: 350px;
+}
+.look h3 {
+    padding-left: 20px;
+}
+.look img{
+    margin-left: 35px;
+    width: 220px;
+    height: 300px;
+    padding-top: 10px;
+
+}
+.individ{
+    border: 3px solid #c0a1a1;
+    border-radius: 8px;
+    width: 300px;
+    height: 350px;
+}
+.individ h3 {
+    padding-left: -20px;
+
+}
+.individ img{
+    margin-left: 23px;
+    padding-top: 10px;
+    width: 250px;
+    height: 300px;
+}
+.photos_one{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+
+}
+.pary {
+    border: 3px solid #c0a1a1;
+    border-radius: 8px;
+    width: 300px;
+    height: 350px;
+}
+.pary h3 {
+    padding-left: 20px;
+
+}
+.pary img {
+    margin-left: 30px;
+    padding-top: 10px;
+    width: 230px;
+    height: 300px;
+
+}
+.fam {
+    border: 3px solid #c0a1a1;
+    border-radius: 8px;
+    width: 300px;
+    height: 350px;
+
+}
+.fam h3 {
+    padding-left: 20px;
+
+}
+.fam img {
+    margin-left: 33px;
+    padding-top: 10px;
+    width: 230px;
+    height: 300px;
+
+}
+.photos_two {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.photos h3{
+    color: #605d5d;
+
+}
+.my_portfolio {
+    background-color: black;
+    width: 1200px;
+    height: 530px;
+    margin-top: 140px;
+}
+.name_vid {
+    color: #dccfc4;
+    width: 300px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+.slide_block {
+    border: 4px solid #c0a1a1;
+    width: 1150px;
+    height: 300px;
+    margin-top: 50px;
+    border-right: none;
+    border-left: none;
+}
+.footer_inner {
+    width: 1200px;
+    height: 300px;
+    border-top: 4px solid #c0a1a1;
+    background-color: #dccfc4;
+}
+.footer_block{
+    display: flex;
+    justify-content: space-around;
+}
+.footer h3 {
+    padding-top: 30px ;
+}
+.social{
+    width: 400px;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    margin-left: -70px;
+
+}
+
+.social img {
+    width: 60px;
+    height: 60px;
+}
+.maps {
+    margin-top: 10px;
+}
+.by{
+    width: 1200px;
+    height: 20px;
+    background-color: #c0a1a1;
+}
+.by_inner {
+    border: 1px solid #c0a1a1;
+    width: 150px;
+    margin: 0 auto;
+}

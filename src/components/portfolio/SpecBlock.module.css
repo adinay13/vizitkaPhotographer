@@ -1,0 +1,7 @@
+.ololow img {
+    justify-content: space-around;
+    display: flex;
+    width: 220px;
+    height: 270px;
+    margin-top: 10px;
+}
