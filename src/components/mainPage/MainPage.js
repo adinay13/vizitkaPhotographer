@@ -1,6 +1,7 @@
 import React from 'react';
 import './style.css'
 import images from '../../images/photo.jpg'
+import great from '../../images/greatstudio.jpg'
 
 const MainPage = () => {
     return (
@@ -8,7 +9,7 @@ const MainPage = () => {
             <div className="container">
                 <div className="header">
                     <div className="header__inner">
-                        <h1>Great Studio</h1>
+                        <img src={great} alt=""/>
                     </div>
                 </div>
                 <div className="bio">
@@ -16,7 +17,7 @@ const MainPage = () => {
                         <div className="left">
                             <div className="text_block">
                                 <h5>" Привет! Меня зовут Нуржамал.<br/>
-                                    Являюсь штатным фотографом Great Studio.<br/>
+                                    Являюсь штатным фотографом <span className="great_color">Great Studio</span><br/>
                                     В большей части в этой профессии мне нравится снимать настроение людей,<br/>
                                     нравится раскрепощать в процессе съёмки. И видеть их счастливые лица. <br/>
                                     Имею большой опыт при съёмке lookbook для разных маркетплейсов <br/>

@@ -10,32 +10,34 @@
     height: 780px;
 }
 .header{
-    border-bottom: 5px solid #CFDAF0;
+    border-bottom: 5px solid white;
 }
 .header__inner {
     height: 80px;
-    background-color: black;
-}
-.header__inner h1 {
     display: flex;
     justify-content: center;
-    align-items: center;
-    padding-top: 20px;
-    color: #CFDAF0;
+    background-color: #758374;
+}
+.header__inner img{
+    width: 300px;
+    height: 80px;
+    margin: 0 auto;
 }
 .bio__inner{
-    border: 1px solid blueviolet;
     height: 700px;
     display: flex;
     justify-content: space-between;
     background-color: black;
+}
+.great_color{
+    color: #899b87;
 }
 .text_block{
     width: 480px;
     height: 300px;
     font-size: 20px;
     word-spacing: 10px;
-    color: #aec2ec;
+    color: white;
     margin-top: 90px;
     line-height: 30px;
     margin-left: 40px;
@@ -48,7 +50,7 @@
     width: 300px;
     height: 50px;
     background: transparent;
-    color: #CFDAF0;
+    color: #899b87;
     font-size: 20px;
     margin-left: 150px;
     box-shadow: 0 0 5px 5px #b0b0dc;
@@ -56,7 +58,7 @@
 }
 .moment{
     margin-top: 30px;
-    color: #CFDAF0;
+    color: #899b87;
     margin-left: 40px;
     font-size: 24px;
 
@@ -75,14 +77,14 @@
 
 }
 .portfolio__inner{
-    border-top: 5px solid #c0a1a1;
-    background-color: #dccfc4;
-    border-bottom: 5px solid #c0a1a1 ;
+    border-top: 5px solid white;
+    background-color: #758374;
+    border-bottom: 5px solid white ;
     height: 920px;
 
 }
 .portfolio__inner h1 {
-    color: #706C6A;
+    color: white;
     width: 250px;
     margin: 0 auto;
     padding-top: 30px;
@@ -90,7 +92,7 @@
 }
 
 .photos{
-    color: #c0a1a1;
+    color: white;
 }
 .photos h3 {
     display: flex;
@@ -99,7 +101,7 @@
 
 }
 .look {
-    border: 3px solid #c0a1a1;
+    border: 3px solid white;
     border-radius: 8px;
     width: 300px;
     height: 350px;
@@ -115,7 +117,7 @@
 
 }
 .individ{
-    border: 3px solid #c0a1a1;
+    border: 3px solid white;
     border-radius: 8px;
     width: 300px;
     height: 350px;
@@ -137,7 +139,7 @@
 
 }
 .pary {
-    border: 3px solid #c0a1a1;
+    border: 3px solid white;
     border-radius: 8px;
     width: 300px;
     height: 350px;
@@ -154,7 +156,7 @@
 
 }
 .fam {
-    border: 3px solid #c0a1a1;
+    border: 3px solid white;
     border-radius: 8px;
     width: 300px;
     height: 350px;
@@ -177,7 +179,7 @@
     margin-top: 50px;
 }
 .photos h3{
-    color: #605d5d;
+    color: white;
 
 }
 .my_portfolio {
@@ -187,13 +189,13 @@
     margin-top: 140px;
 }
 .name_vid {
-    color: #dccfc4;
+    color: white;
     width: 300px;
     margin: 0 auto;
     padding-top: 30px;
 }
 .slide_block {
-    border: 4px solid #c0a1a1;
+    border: 4px solid #758374;
     width: 1150px;
     height: 300px;
     margin-top: 50px;
@@ -203,8 +205,9 @@
 .footer_inner {
     width: 1200px;
     height: 300px;
-    border-top: 4px solid #c0a1a1;
-    background-color: #dccfc4;
+    border-top: 4px solid white;
+    background-color: #758374;
+    color: white;
 }
 .footer_block{
     display: flex;
@@ -233,10 +236,11 @@
 .by{
     width: 1200px;
     height: 20px;
-    background-color: #c0a1a1;
+    background-color: black;
 }
 .by_inner {
-    border: 1px solid #c0a1a1;
+    border: 1px solid black;
     width: 150px;
     margin: 0 auto;
+    color: white;
 }
