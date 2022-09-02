@@ -10,7 +10,7 @@ root.render(
     <BrowserRouter>
         <Routes>
 
-            <Route path="/photographer_nurjamal" element={<App/>}/>
+            <App/>
 
         </Routes>
     </BrowserRouter>
