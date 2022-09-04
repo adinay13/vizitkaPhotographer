@@ -17,7 +17,7 @@ import slide11 from '../../images/lookb.jpg'
 import slide12 from '../../images/lookbb.jpg'
 import slide13 from '../../images/twigirls.jpg'
 
-export default () => {
+export default function slidePortfolio()  {
     return (
         <div className={cl.ololow}>
             <Swiper

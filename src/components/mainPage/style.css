@@ -7,7 +7,7 @@
 }
 .container {
     width: 1200px;
-    height: 850px;
+    height: 900px;
 }
 .header{
     border-bottom: 5px solid white;
@@ -24,7 +24,7 @@
     margin: 0 auto;
 }
 .bio__inner{
-    height: 800px;
+    height: 850px;
     display: flex;
     justify-content: space-between;
     background-color: black;
@@ -80,7 +80,7 @@
     border-top: 5px solid white;
     background-color: #758374;
     border-bottom: 5px solid white ;
-    height: 990px;
+    height: 1040px;
     
 
 }
@@ -93,7 +93,7 @@
 }
 .container_portfolio {
     width: 1200px;
-    height: 850px;
+    height: 900px;
 }
 
 .photos{
@@ -259,4 +259,9 @@
     width: 150px;
     margin: 0 auto;
     color: white;
+}   
+.found h3 {
+    margin-left: 60px;
+    width: 250px;
+
 }

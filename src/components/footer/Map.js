@@ -6,7 +6,7 @@ const Map = () => {
         let map
             map = DG.map("map", {
                 center: [42.852193254971176, 74.61646845506412],
-                zoom: 15
+                zoom: 25
             });
             DG.marker([42.852193254971176, 74.61646845506412]).addTo(map).bindPopup('Медерова 99');
             // DG.marker([42.852193254971176, 74.61646845506412]).addTo(map).bindPopup('bruh');
