@@ -9,7 +9,7 @@ import slide3 from '../../images/lookbook2.jpg'
 import slide4 from '../../images/fam2.jpg'
 import slide5 from '../../images/ind3.jpg'
 import slide6 from '../../images/fam3.jpg'
-import slide7 from '../../images/individ1.jpg'
+// import slide7 from '../../images/individ1.jpg'
 import slide8 from '../../images/individ2.jpg'
 import slide9 from '../../images/pary2.jpg'
 import slide10 from '../../images/wedd.jpg'
@@ -28,9 +28,8 @@ export default () => {
                 onSlideChange={() => console.log('slide change')}
                 onSwiper={(swiper) => console.log(swiper)}
                 loop
-                autoplay={{delay: 1000}}
-
-            >
+                autoplay={{delay: 1000}} 
+                  >
                 <SwiperSlide>
                     <img key={slide1} src={slide1} alt="iu"/>
                 </SwiperSlide>
@@ -49,9 +48,9 @@ export default () => {
                 <SwiperSlide>
                     <img key={slide6} src={slide6} alt="iu"/>
                 </SwiperSlide>
-                <SwiperSlide>
+                {/* <SwiperSlide>
                     <img key={slide7} src={slide7} alt="iu"/>
-                </SwiperSlide>
+                </SwiperSlide> */}
                 <SwiperSlide>
                     <img key={slide8} src={slide8} alt="iu"/>
                 </SwiperSlide>
