@@ -1,5 +1,5 @@
 import React from 'react';
-import SpecBlock from "./SpecSlide";
+// import SpecBlock from "./SpecSlide";
 import SpecSlide from "./SpecSlide";
 
 const PortfolioTwo = () => {

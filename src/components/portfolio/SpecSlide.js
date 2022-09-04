@@ -9,8 +9,8 @@ import slide3 from '../../images/lookbook2.jpg'
 import slide4 from '../../images/fam2.jpg'
 import slide5 from '../../images/ind3.jpg'
 import slide6 from '../../images/fam3.jpg'
-import slide7 from '../../images/individ1.JPG'
-import slide8 from '../../images/individ2.JPG'
+import slide7 from '../../images/individ1.jpg'
+import slide8 from '../../images/individ2.jpg'
 import slide9 from '../../images/pary2.jpg'
 import slide10 from '../../images/wedd.jpg'
 import slide11 from '../../images/lookb.jpg'
@@ -23,15 +23,12 @@ export default () => {
             <Swiper
                 modules={[Autoplay]}
                 scroll
-                spaceBetween={80}
-                slidesPerView={4.5}
+                spaceBetween={90}
+                slidesPerView={3}
                 onSlideChange={() => console.log('slide change')}
                 onSwiper={(swiper) => console.log(swiper)}
                 loop
                 autoplay={{delay: 1000}}
-
-
-
 
             >
                 <SwiperSlide>

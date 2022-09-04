@@ -13,7 +13,7 @@ const Map = () => {
         },[]);
     return (
         <div>
-            <div id="map" style={{width:'300px', height:'210px'}}> 
+            <div id="map" style={{width:'400px', height:'280px'}}> 
             </div>
         </div>
     );
