@@ -255,10 +255,12 @@
     background-color: black;
 }
 .by_inner {
-    border: 1px solid black;
-    width: 170px;
+    border: 1px solid red;
+    width: 250px;
     margin: 0 auto;
     color: white;
+    font-size: 25px;
+    padding-top: 10px;
 }   
 .found h3 {
     margin-left: 60px;

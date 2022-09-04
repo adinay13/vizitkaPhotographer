@@ -3,19 +3,19 @@ import {Autoplay} from "swiper";
 import 'swiper/css';
 import cl from './SpecBlock.module.css'
 
-import slide1 from '../../images/slide1.jpg'
-import slide2 from '../../images/mamasom.jpg'
-import slide3 from '../../images/lookbook2.jpg'
-import slide4 from '../../images/fam2.jpg'
-import slide5 from '../../images/ind3.jpg'
-import slide6 from '../../images/fam3.jpg'
-import slide7 from '../../images/individ1.jpg'
-import slide8 from '../../images/individ2.jpg'
-import slide9 from '../../images/pary2.jpg'
-import slide10 from '../../images/wedd.jpg'
-import slide11 from '../../images/lookb.jpg'
-import slide12 from '../../images/lookbb.jpg'
-import slide13 from '../../images/twigirls.jpg'
+import slide1 from '../images/slide1.jpg'
+import slide2 from '../images/mamasom.jpg'
+import slide3 from '../images/lookbook2.jpg'
+import slide4 from '../images/fam2.jpg'
+import slide5 from '../images/ind3.jpg'
+import slide6 from '../images/fam3.jpg'
+import slide7 from '../images/individ1.jpg'
+import slide8 from '../images/individ2.jpg'
+import slide9 from '../images/pary2.jpg'
+import slide10 from '../images/wedd.jpg'
+import slide11 from '../images/lookb.jpg'
+import slide12 from '../images/lookbb.jpg'
+import slide13 from '../images/twigirls.jpg'
 
 export default function slidePortfolio()  {
     return (

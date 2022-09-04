@@ -1,7 +1,7 @@
 import React from 'react';
 import './style.css'
-import images from '../../images/photo.jpg'
-import great from '../../images/greatstudio.jpg'
+import images from '../images/photo.jpg'
+import great from '../images/greatstudio.jpg'
 
 const MainPage = () => {
     return (

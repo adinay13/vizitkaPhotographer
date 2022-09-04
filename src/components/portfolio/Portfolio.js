@@ -1,8 +1,8 @@
 import React from 'react';
-import lookbook from '../../images/look.jpg'
-import individ from '../../images/im.jpg'
-import pary from '../../images/glav_panr.jpg'
-import fam from '../../images/fan_glav.jpg'
+import lookbook from '../images/look.jpg'
+import individ from '../images/im.jpg'
+import pary from '../images/glav_panr.jpg'
+import fam from '../images/fan_glav.jpg'
 
 const Portfolio = () => {
     return (
