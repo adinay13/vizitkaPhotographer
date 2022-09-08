@@ -23,7 +23,7 @@ export default function slidePortfolio()  {
             <Swiper
                 modules={[Autoplay]}
                 scroll
-                spaceBetween={90}
+                spaceBetween={100}
                 slidesPerView={3}
                 onSlideChange={() => console.log('slide change')}
                 onSwiper={(swiper) => console.log(swiper)}

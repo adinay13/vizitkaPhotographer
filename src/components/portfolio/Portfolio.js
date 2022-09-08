@@ -21,8 +21,7 @@ const Portfolio = () => {
                                 <img src={individ} alt=""/>
                                 <h3>Индивидуальные</h3>
                             </div>
-                            </div>
-                            <div className="photos_two">
+                           
                             <div className="pary">
                                 <img src={pary} alt=""/>
                                 <h3>Парные</h3>
@@ -32,6 +31,7 @@ const Portfolio = () => {
                                 <h3>Семейный фотосет</h3>
                             </div>
                             </div>
+                            
                         </div>
                     </div>
                 </div>

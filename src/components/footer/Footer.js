@@ -31,6 +31,9 @@ const Footer = () => {
 
                                     </div>
                                 </div>
+                                <div className="gifka">
+                                <img src="https://thumbs.gfycat.com/RelievedElaborateFlyingsquirrel-size_restricted.gif" alt="" />                
+                                </div>
 
 
                             </div>
